@@ -16,6 +16,7 @@
     var as = $('div.panel-heading a');
     console.log("asdf", as);
     var dateValue = new Date();
+
     var now = new Date();
     now.setDate(now.getDate() - now.getDay())
     for (var i = 1; i <= divs.length; i++) {
